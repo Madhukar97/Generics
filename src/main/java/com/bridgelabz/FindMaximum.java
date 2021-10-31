@@ -10,19 +10,19 @@ public class FindMaximum {
         Integer x = scanner.nextInt();
         Integer y = scanner.nextInt();
         Integer z = scanner.nextInt();
-        Integer max=-2147483648;
+        Integer max = -2147483648;
         int result = x.compareTo(max);
-        if (result==1){
-            max=x;
+        if (result == 1) {
+            max = x;
         }
         result = y.compareTo(max);
-        if (result==1){
-            max=y;
+        if (result == 1) {
+            max = y;
         }
         result = z.compareTo(max);
-        if (result==1){
-            max=z;
+        if (result == 1) {
+            max = z;
         }
-        System.out.println("The max number is : "+max);
+        System.out.println("The max number is : " + max);
     }
 }
