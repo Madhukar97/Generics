@@ -6,23 +6,23 @@ public class FindMaximum {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter three numbers: ");
-        Integer x = scanner.nextInt();
-        Integer y = scanner.nextInt();
-        Integer z = scanner.nextInt();
-        Integer max = -2147483648;
+        System.out.println("Enter three strings: ");
+        String x = scanner.next();
+        String y = scanner.next();
+        String z = scanner.next();
+        String max = "";
         int result = x.compareTo(max);
-        if (result == 1) {
+        if (result > 1) {
             max = x;
         }
         result = y.compareTo(max);
-        if (result == 1) {
+        if (result > 1) {
             max = y;
         }
         result = z.compareTo(max);
-        if (result == 1) {
+        if (result > 1) {
             max = z;
         }
-        System.out.println("The max number is : " + max);
+        System.out.println("The max String is : " + max);
     }
 }
