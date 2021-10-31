@@ -7,10 +7,10 @@ public class FindMaximum {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter three numbers: ");
-        Integer x = scanner.nextInt();
-        Integer y = scanner.nextInt();
-        Integer z = scanner.nextInt();
-        Integer max = -2147483648;
+        Float x = scanner.nextFloat();
+        Float y = scanner.nextFloat();
+        Float z = scanner.nextFloat();
+        Float max = 0.0f;
         int result = x.compareTo(max);
         if (result == 1) {
             max = x;
