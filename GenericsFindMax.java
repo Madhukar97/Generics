@@ -3,7 +3,7 @@ package com.bridgelabz;
 public class Main {
     public static  <E extends Comparable> E getMaximum(E a, E b, E c){
         E max=a;
-        if(b.compareTo(a)>0 && b.compareTo(a)>0){
+        if(b.compareTo(a)>0 && b.compareTo(c)>0){
             max=b;
         }else if(c.compareTo(max)>0){
             max=c;
